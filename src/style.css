@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    height: 250px;
+}
+
+h2{
+    font-weight: 200;
+}
+
+span{
+    font-weight: 300;
+    margin-right: 7px;
+    color: teal;
+    font-size: 17px;
+}
+h3{
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.container-info-hero{
+    margin-left: 10%;
+}
+
+
+
+p{
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.link-mas{
+    font-size: 15px;
+    text-decoration: none;
+    color: teal;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+a:hover{
+    text-decoration: none;
+    color:teal;
+}
+
+.no-gutters {
+    padding: 10px;
+    box-shadow: 0px 1px 6px 0px rgb(61, 61, 61);
+    
+}
+
+.container-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+:checked {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+
+.card-img, .card-img-bottom {
+    height: 80%;
+}
+
+.list-group .item-hero-info{
+    list-style: none;
+    margin: 6px 0px;
+}
+
+._btn_{
+    padding: 8px;
+    background-color:teal;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+
+/*@Media*/
+
+@media (max-width: 600px) {
+    img.img-thumbnail.card-columns.animate__animated.animate__fadeInLeft {
+      
+        height: 400px;
+    }
+    .container-info-hero {
+       margin: 0;
+       padding: 40px 0px;
+    }
+    .container-hero-screen{
+        text-align: center;
+    }
+    
+    .col-md-4 {
+        /* background: red; */
+        height: 400px;
+    }
+    .card-img, .card-img-bottom {
+        height: 370px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    ._btn_ {
+    
+        margin-bottom: 30px;
+    }
+    small {
+        font-size: 13px;
+        
+    }
+    .card.ms-3 {
+        height: 100%;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    .card-body {
+    
+        height: auto;
+    }
+  }
